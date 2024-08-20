@@ -3,7 +3,7 @@ import networkx as nx
 import numpy as np
 import pandas as pd
 from collections import Counter
-from pathlib import Path
+from s3path import S3Path, Path
 from itertools import chain
 
 # init

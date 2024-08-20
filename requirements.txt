@@ -8,3 +8,4 @@ python-frontmatter
 beautifulsoup4
 bleach
 lxml  # front matter parsing
+s3path

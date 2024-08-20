@@ -14,7 +14,8 @@ INSTALL_REQUIRES = [
     "python-frontmatter",
     "beautifulsoup4",
     "bleach",
-    "lxml"]
+    "lxml"],
+    "s3path"
 
 CLASSIFIERS = [
     "Development Status :: 3 - Alpha",
@@ -32,7 +33,7 @@ CLASSIFIERS = [
 
 setuptools.setup(
     name="obsidiantools",
-    version="0.10.0",
+    version="0.10.1",
     author="Mark Farragher",
     description="Obsidian Tools - a Python interface for Obsidian.md vaults",
     long_description=LONG_DESCRIPTION,

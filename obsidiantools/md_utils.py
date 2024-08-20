@@ -1,6 +1,6 @@
 import re
 import yaml
-from pathlib import Path
+from s3path import S3Path, Path
 from bs4 import BeautifulSoup
 import markdown
 import frontmatter
