@@ -34,7 +34,7 @@ from .canvas_utils import (get_canvas_content,
 
 
 class Vault:
-    def __init__(self, dirpath: Path, *,
+    def __init__(self, dirpath, *,
                  include_subdirs: list[str] = None, include_root: bool = True):
         """A Vault object lets you dig into your Obsidian vault, by giving
         you a toolkit for analysing its contents.  Specify a dirpath to
