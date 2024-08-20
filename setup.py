@@ -14,8 +14,8 @@ INSTALL_REQUIRES = [
     "python-frontmatter",
     "beautifulsoup4",
     "bleach",
-    "lxml"],
-    "s3path"
+    "lxml",
+    "s3path"]
 
 CLASSIFIERS = [
     "Development Status :: 3 - Alpha",
