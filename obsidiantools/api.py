@@ -3,7 +3,9 @@ import networkx as nx
 import numpy as np
 import pandas as pd
 from collections import Counter
-from s3path import S3Path, Path
+#https://github.com/liormizr/s3path/issues/178 Path can't be imported from s3path
+from pathlib import PurePath, Path
+from s3path import S3Path
 from itertools import chain
 
 # init
